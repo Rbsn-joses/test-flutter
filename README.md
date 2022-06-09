@@ -1,8 +1,5 @@
 With this pubspec.yaml dependency configuration, renovate can't pull the version from the "ref" field, I tried by regex, but my configuration still didn't work either, here is the error log
-"pub": [
-{
-"packageFile": "pubspec.yaml",
-"datasource": "dart",
+```json
 "deps": [
 {
 {
@@ -18,5 +15,6 @@ With this pubspec.yaml dependency configuration, renovate can't pull the version
 ]
 }
 ]
+```
 
 
